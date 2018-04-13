@@ -5,7 +5,7 @@ GO
 CREATE TABLE [dbo].[DimAccount]
 (
 	[AccountKey] [int] NOT NULL,
-	[ParentAccountKey] [bigint] NULL,
+	[ParentAccountKey] [int] NULL,
 	[AccountCodeAlternateKey] [int] NULL,
 	[ParentAccountCodeAlternateKey] [int] NULL,
 	[AccountDescription] [nvarchar](50) NULL,
