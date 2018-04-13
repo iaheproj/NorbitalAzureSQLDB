@@ -4,8 +4,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[DimAccount]
 (
-	[AccountKey] [bigint] NOT NULL,
-	[ParentAccountKey] [int] NULL,
+	[AccountKey] [int] NOT NULL,
+	[ParentAccountKey] [bigint] NULL,
 	[AccountCodeAlternateKey] [int] NULL,
 	[ParentAccountCodeAlternateKey] [int] NULL,
 	[AccountDescription] [nvarchar](50) NULL,
