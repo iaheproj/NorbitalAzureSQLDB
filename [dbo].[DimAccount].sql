@@ -13,7 +13,8 @@ CREATE TABLE [dbo].[DimAccount]
 	[Operator] [nvarchar](50) NULL,
 	[CustomMembers] [nvarchar](300) NULL,
 	[ValueType] [nvarchar](50) NULL,
-	[CustomMemberOptions] [nvarchar](200) NULL
+	[CustomMemberOptions] [nvarchar](200) NULL,
+	DateStamp DATETIME
 )
 WITH
 (
